@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import br.com.zup.estrelas.alunos.entity.Aluno;
+import br.com.zup.estrelas.repository.AlunoRepository;
 
 
 @RestController
@@ -22,7 +23,7 @@ import br.com.zup.estrelas.alunos.entity.Aluno;
 public class AlunoController {
 
 	@Autowired
-	br.com.zup.estrelas.repository.AlunoRepository repository;
+	AlunoRepository repository;
 
 	@PostMapping
 	public Aluno insereAluno(@RequestBody Aluno aluno) {
