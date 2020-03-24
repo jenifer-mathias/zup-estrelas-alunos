@@ -2,9 +2,6 @@ package br.com.zup.estrelas.alunos.controller;
 
 import java.util.List;
 import java.util.Optional;
-
-import javax.persistence.Query;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,7 +13,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.com.zup.estrelas.alunos.entity.Aluno;
 import br.com.zup.estrelas.alunos.repository.AlunoRepository;
 
