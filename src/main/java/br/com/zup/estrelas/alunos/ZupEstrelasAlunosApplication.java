@@ -1,4 +1,4 @@
-package br.com.zup.estrelas.alunos.entity;
+package br.com.zup.estrelas.alunos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
